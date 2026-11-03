@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CleanReport Workspace</title>
+    <!-- Tailwind CSS for superfast premium styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #F8FAFC; font-family: 'Inter', sans-serif; }
+        .card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEH0V9QEEV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VEH0V9QEEV');
+    </script>
+</head>
+<body class="text-slate-800 pb-12">
+    <div class="max-w-7xl mx-auto px-6 py-10">
+        
+        <!-- Logo & Header -->
+        <div class="flex items-center mb-3">
+            <img src="logo.png" alt="Logo" class="w-12 h-12 mr-4" onerror="this.outerHTML='<span class=\'text-4xl mr-4\'>⚡</span>'">
+            <h1 class="text-2xl md:text-3xl font-bold text-slate-900">Welcome to CleanReport Workspace</h1>
+        </div>
+        <p class="text-slate-600 text-base md:text-lg mb-8 font-medium">Your centralized professional portal for Data Analytics and Government Calculations.</p>
+        
+        <hr class="mb-10 border-slate-200 border-t-2">
+
+        <!-- 4 Cards Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- 1. CSD Checker (Superfast Vercel) -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between h-full">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-600 mb-3">🛒 CSD Price Checker</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Instantly search thousands of CSD Canteen items by Name, Index No, or Exact Price. Superfast mobile-friendly checker.</p>
+                </div>
+                <a href="https://csd.cleanreport.in" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                    🚀 Launch CSD Checker
+                </a>
+            </div>
+
+            <!-- 2. Data Matcher (Render App) -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between h-full">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-600 mb-3">📊 Ultimate Data Matcher</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Extract, clean, and cross-reference complex corporate Excel inventories with high precision fuzzy matching algorithms.</p>
+                </div>
+                <a href="https://cleanreport-web.onrender.com" class="block w-full text-center bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                    🚀 Launch Data Matcher
+                </a>
+            </div>
+
+            <!-- 3. Medical (Render App) -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between h-full">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-600 mb-3">🏥 Medical Reimbursement</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Automate CGHS claims calculation consultation-wise and instantly generate audit-ready official PDF reports.</p>
+                </div>
+                <a href="https://cleanreport-web.onrender.com" class="block w-full text-center bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                    🚀 Launch Medical
+                </a>
+            </div>
+
+            <!-- 4. NDA (Superfast Vercel) -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between h-full">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-600 mb-3">🌙 NDA Calculator</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Calculate highly accurate Night Duty Allowance for employees using official 7th CPC rules and bulk Excel processing.</p>
+                </div>
+                <a href="https://nda.cleanreport.in" class="block w-full text-center bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                    🚀 Launch NDA Calculator
+                </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
